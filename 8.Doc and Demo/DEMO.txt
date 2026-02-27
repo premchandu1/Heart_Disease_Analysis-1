@@ -1,0 +1,18 @@
+DEMO VIDEO — HEART DISEASE ANALYSIS PROJECT
+
+The project demonstration video is included inside this folder.  
+File Name:
+Heart_Disease_Project_Demo.mp4
+
+Since the project is submitted with local files, an online link is not provided.
+
+To view the demo:
+1. Download the video file from this directory.
+2. Play it using any media player.
+
+This video shows:
+- Dataset explanation
+- Data preprocessing steps
+- Model training and evaluation
+- Flask application usage
+- Tableau dashboard explanation
