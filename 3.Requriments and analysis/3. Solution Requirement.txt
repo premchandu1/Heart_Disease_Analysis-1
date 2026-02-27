@@ -1,0 +1,58 @@
+SOLUTION REQUIREMENT — HEART DISEASE ANALYSIS
+
+1. Functional Requirements
+1.1 User Input Requirements
+    - System must accept inputs: BMI, Smoking, AlcoholDrinking, Stroke, Diabetic,
+      SleepTime, PhysicalHealth, MentalHealth, AgeCategory, etc.
+
+1.2 Data Handling
+    - System processes 4500 records with 18 attributes.
+    - Handles categorical and numerical data.
+    - Performs feature encoding and scaling.
+
+1.3 Machine Learning Model
+    - Train a classification model (Logistic Regression / RF / XGBoost).
+    - Provide evaluation metrics (accuracy, precision, recall).
+    - Save the trained model as model.pkl.
+
+1.4 Flask Web Application
+    - Simple UI for entering health values.
+    - Shows prediction result (Yes/No).
+    - Prevents invalid or missing data.
+
+1.5 Visualization Dashboard
+    - Tableau dashboard must visualize:
+      • Health factors
+      • Risk distribution
+      • Demographic patterns
+      • Lifestyle influence
+
+1.6 Documentation
+    - Record project report, video, and screenshots.
+
+2. Non-functional Requirements
+2.1 Usability
+    - User-friendly UI.
+    - Dashboard must be clear and interactive.
+
+2.2 Performance
+    - Prediction must be <2 seconds.
+    - Fast dashboard filtering.
+
+2.3 Security
+    - No user details saved.
+    - Input validation.
+
+2.4 Reliability
+    - Model should work consistently for all inputs.
+
+2.5 Scalability
+    - Dataset can be expanded in the future.
+    - More models can be added.
+
+3. Hardware/Software Requirements
+    - Python 3.8+
+    - Flask
+    - Tableau Public
+    - Browser
+    - VS Code / Jupyter Notebook

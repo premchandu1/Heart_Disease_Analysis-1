@@ -1,0 +1,35 @@
+TECHNOLOGY STACK — HEART DISEASE ANALYSIS
+
+1. Programming Languages
+   - Python
+   - HTML / CSS (Flask templates)
+
+2. Frameworks & Libraries
+   - Flask (web framework)
+   - Pandas / NumPy (data processing)
+   - Scikit-learn (machine learning)
+   - Matplotlib / Seaborn (EDA)
+   - Jinja2 (HTML templates)
+
+3. Machine Learning
+   - Logistic Regression
+   - Random Forest
+   - Model saved as model.pkl
+
+4. Visualization Tool
+   - Tableau Public
+
+5. Tools & IDEs
+   - VS Code
+   - Jupyter Notebook
+   - GitHub (version control)
+
+6. File Storage
+   - Dataset: CSV
+   - Model: PKL
+   - Reports: PDF
+   - Videos: MP4
+   - Screenshots: PNG/JPEG
+
+7. Deployment
+   - Localhost Flask Application

@@ -1,0 +1,30 @@
+CUSTOMER JOURNEY MAP — HEART DISEASE ANALYSIS
+
+Stage 1: Awareness
+- User feels symptoms or health concerns.
+- Searches online about heart disease.
+- Learns that lifestyle factors (BMI, Smoking, SleepTime) affect risk.
+- Finds a tool that predicts heart disease.
+
+Stage 2: Consideration
+- User wants a simple method to check their health risk.
+- Compares solutions (doctors, tests, websites).
+- Chooses this system because it’s free, simple, and fast.
+
+Stage 3: Decision
+- User opens the web application.
+- Enters values like BMI, Diabetic, Smoking, Stroke, AgeCategory.
+- System processes the input and predicts heart disease probability.
+
+Stage 4: Action
+- User views Tableau dashboard for deeper insights.
+- Learns which factors increase their risk.
+- Plans lifestyle improvement or doctor consultation.
+
+Stage 5: Retention
+- User returns to the website to check improvements.
+- Tracks health changes.
+- Shares tool with others.
+
+Goal:
+To help the user understand their heart disease risk and take preventive actions early.

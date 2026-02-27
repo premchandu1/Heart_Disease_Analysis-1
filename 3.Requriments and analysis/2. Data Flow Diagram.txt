@@ -1,0 +1,35 @@
+DATA FLOW DIAGRAM — HEART DISEASE ANALYSIS
+
+LEVEL 0 DFD:
+--------------------------------------------------------
+User → Heart Disease Prediction System → Prediction Output
+--------------------------------------------------------
+
+LEVEL 1 DFD:
+
+1. User Input
+   - User enters BMI, Smoking, AlcoholDrinking, Stroke, Diabetic, SleepTime, etc.
+
+2. Preprocessing
+   - Convert categorical values to numeric.
+   - Scale numeric values.
+   - Validate missing/invalid inputs.
+
+3. ML Model Processing
+   - Preprocessed data is sent to model.pkl
+   - Model predicts Yes/No (Heart Disease)
+
+4. Output Layer
+   - Displays prediction result on Flask webpage.
+   - Sends dataset to Tableau for analysis and dashboards.
+
+5. Visualization
+   - Tableau shows:
+       • AgeCategory distribution
+       • BMI trends
+       • Smoking & Drinking effects
+       • Physical/Mental health patterns
+       • Disease vs No Disease charts
+
+DFD Summary:
+User → Input Form → Processing → ML Model → Prediction + Dashboard
