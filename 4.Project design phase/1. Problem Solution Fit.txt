@@ -1,0 +1,46 @@
+PROBLEM–SOLUTION FIT — HEART DISEASE ANALYSIS
+
+1. The Problem
+Heart disease continues to be one of the leading causes of death globally.  
+People often lack awareness of how their lifestyle, physical activity, mental health, and habits (such as smoking or drinking) affect their heart condition.  
+
+Traditional diagnosis requires:
+- Medical checkups
+- Blood tests
+- Doctor consultations  
+This makes prediction expensive, time-consuming, and not easily accessible.
+
+There is a need for:
+- A quick, accessible, data-driven risk assessment tool.
+- A dashboard that visually explains the main risk factors.
+
+2. Who Faces the Problem?
+- Adults aged 18–80+
+- People with lifestyle-risk patterns (smoking, alcohol, low sleep)
+- Individuals with high BMI, diabetes, stroke history
+- Patients wanting early detection before symptoms worsen
+- Healthcare workers needing fast preliminary assessment tools
+
+3. Why Existing Methods Are Not Enough?
+- Manual diagnosis is slow
+- Many people ignore regular checkups
+- No simple self-assessment tool
+- Data patterns are not visually explained to users
+
+4. Our Solution Fit
+The Heart Disease Analysis System solves these limitations by providing:
+
+✔ A Machine Learning model trained on 4500 real records  
+✔ Web-based input system (Flask) for easy prediction  
+✔ Risk assessment using 18 lifestyle + medical features  
+✔ Tableau Dashboard for visual insights  
+✔ Instant Yes/No result with no medical tests required  
+
+5. Outcome
+This solution perfectly fits the user’s need for:
+- Early detection
+- Awareness of risks
+- Data-based decision-making
+- Better lifestyle planning
+
+The system is fast, accurate, free to use, and scientifically structured.

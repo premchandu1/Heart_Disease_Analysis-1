@@ -1,0 +1,79 @@
+SOLUTION ARCHITECTURE — HEART DISEASE ANALYSIS
+
+1. System Layers
+
+a) Presentation Layer (Front-End)
+   - HTML/CSS (Flask templates)
+   - Input fields for health parameters
+   - Displays prediction result
+
+b) Application Layer (Back-End)
+   - Flask framework
+   - Collects user input
+   - Preprocesses data
+   - Loads machine learning model
+
+c) Machine Learning Layer
+   - Logistic Regression / Random Forest
+   - model.pkl file
+   - Accepts processed data
+   - Returns Yes/No prediction
+
+d) Visualization Layer
+   - Tableau Public dashboards
+   - Data insights and risk factor analysis
+
+e) Data Layer
+   - CSV dataset (Heart_Disease Dataset)
+   - Processed data files
+   - Model storage
+
+2. Architecture Workflow
+
+User Input → Flask UI  
+        ↓  
+Preprocessing (Encoding, Scaling)  
+        ↓  
+ML Model (model.pkl)  
+        ↓  
+Prediction Output  
+        ↓  
+Tableau Dashboard Insights  
+
+3. ASCII Architecture Diagram
+
++--------------------------------------------+
+|               User Interface               |
+|      (Flask Web Application - HTML)        |
++----------------------+---------------------+
+                       |
+                       v
++--------------------------------------------+
+|            Data Preprocessing Layer        |
+|  - Encode categorical values               |
+|  - Normalize numerical features            |
++----------------------+---------------------+
+                       |
+                       v
++--------------------------------------------+
+|      Machine Learning Prediction Engine    |
+|    (Trained model.pkl - Logistic/RF)       |
++----------------------+---------------------+
+                       |
+                       v
++--------------------------------------------+
+|               Prediction Output            |
+|        (Displays Yes/No to the user)       |
++----------------------+---------------------+
+                       |
+                       v
++--------------------------------------------+
+|             Tableau Visualization           |
+|  (Charts, Risk Factors, Health Patterns)    |
++--------------------------------------------+
+
+4. Benefits of Architecture
+- Modular and scalable
+- Easy to maintain
+- Each layer can be upgraded independently
+- Faster prediction and real-time insights

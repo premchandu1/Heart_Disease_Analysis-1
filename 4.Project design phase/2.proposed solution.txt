@@ -1,0 +1,49 @@
+PROPOSED SOLUTION — HEART DISEASE ANALYSIS
+
+1. Overview
+The proposed solution is a complete predictive system that uses machine learning to identify the risk of heart disease based on lifestyle, medical, and demographic features.  
+Additionally, visual analytics are provided using Tableau Dashboards.
+
+2. Major Components
+a) Machine Learning Model:
+   - Trained using the Heart_Disease dataset (4500 records, 18 attributes)
+   - Logistic Regression / Random Forest classifier
+   - Model stored as model.pkl
+
+b) Web Application (Flask):
+   - Simple UI to collect user inputs
+   - Sends input to ML model
+   - Displays prediction (Heart Disease: Yes/No)
+
+c) Tableau Dashboard:
+   - Visualizes key insights:
+       • Age distribution
+       • BMI variation
+       • Smoking vs Heart Disease
+       • Diabetes & Stroke patterns
+       • Mental & Physical Health effects
+
+d) Data Processing Pipeline:
+   - Cleans and encodes categorical values
+   - Scales numerical values
+   - Handles missing or inconsistent records
+
+3. How the System Works
+Step 1 → User enters values  
+Step 2 → Flask validates and preprocesses  
+Step 3 → ML model predicts risk  
+Step 4 → Prediction displayed on UI  
+Step 5 → User views detailed patterns on Tableau dashboard  
+
+4. Key Features
+✔ Accurate predictions within seconds  
+✔ Based on real dataset with multiple health factors  
+✔ Easy-to-use web app  
+✔ Visual analytics to improve understanding  
+✔ Helps in preventive healthcare  
+
+5. Impact
+This solution empowers users with:
+- Instant risk awareness
+- Lifestyle improvement decisions
+- Visual understanding of health indicators  
