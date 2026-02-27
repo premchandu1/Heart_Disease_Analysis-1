@@ -1,0 +1,45 @@
+EMPATHY MAP — HEART DISEASE ANALYSIS PROJECT
+
+USER TYPE:
+Based on dataset attributes, the likely users are:
+- Adults aged 18–80+
+- Smokers or non-smokers
+- Diabetic or non-diabetic patients
+- People with physical or mental health issues
+- Individuals checking their heart risk
+
+WHAT THE USER THINKS:
+- “My BMI is high — am I at risk?”
+- “I have diabetes and stroke history — should I worry?”
+- “I don’t exercise regularly. Is this dangerous?”
+
+WHAT THE USER FEELS:
+- Fear of developing heart disease
+- Uncertainty about health condition
+- Need for early warning or prediction
+- Desire for simple and clear guidance
+
+WHAT THE USER SAYS:
+- “I want to know if my lifestyle affects my heart.”
+- “Can I see which factors increase my risk?”
+- “Is my sleep time affecting my health?”
+
+WHAT THE USER DOES:
+- Smokes or drinks (some users)
+- Tracks BMI, sleep time, physical activity
+- Consults doctors occasionally
+- Searches online for prediction tools
+
+USER PAINS (Based on dataset features):
+- Poor general health ("GenHealth" categories)
+- Difficulty walking (DiffWalking)
+- High BMI
+- Diabetes and stroke increasing risk
+- Poor mental/physical health scores
+
+USER GAINS:
+✔ Easy understanding of risk factors  
+✔ Simple prediction tool  
+✔ Visual insights through dashboard  
+✔ Early detection using ML  
+✔ Awareness of lifestyle improvements  

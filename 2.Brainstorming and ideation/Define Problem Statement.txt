@@ -1,0 +1,28 @@
+DEFINE PROBLEM STATEMENTS — HEART DISEASE ANALYSIS
+
+Problem Background:
+Heart disease is influenced by various factors like smoking habits, alcohol intake, age category, diabetes, stroke history, BMI, mental/physical health, and lifestyle patterns.
+
+Dataset-Based Constraints:
+- Dataset contains 4500 individuals.
+- Includes 18 risk-related attributes.
+- HeartDisease is categorized as Yes / No.
+
+Primary Problem Statement:
+“To develop a data-driven system that predicts the likelihood of heart disease using lifestyle, demographic, and medical parameters from the provided dataset.”
+
+Sub Problem Statements:
+1. Identify which attributes (BMI, Diabetes, Stroke, AgeCategory, etc.) influence heart disease the most.
+2. Analyze patterns such as:
+   - Are smokers more prone?
+   - Does drinking impact heart disease?
+   - Does increasing BMI correlate with risk?
+   - Which age groups show highest risk?
+3. Design a prediction model that gives Yes/No output using the dataset.
+4. Create a visual dashboard summarizing the dataset trends.
+5. Provide a simple web interface for user input and real-time prediction.
+
+Goals of the Solution:
+- Early risk identification
+- Support for healthcare decision-making
+- Understand major lifestyle and medical risk factors
