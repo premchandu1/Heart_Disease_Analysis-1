@@ -1,0 +1,137 @@
+PROJECT PLANNING — HEART DISEASE ANALYSIS
+
+1. Introduction
+Project planning defines the complete workflow, timeline, deliverables, and milestones required to successfully develop the Heart Disease Analysis System.  
+This includes dataset collection, analysis, model building, UI design, testing, documentation, and deployment.
+
+--------------------------------------------------------
+2. Project Timeline & Phases
+--------------------------------------------------------
+
+Phase 1: Problem Understanding (Week 1)
+- Identify project objectives
+- Study dataset features and structure
+- Understand risk factors of heart disease
+
+Phase 2: Requirement Analysis (Week 1)
+- Define functional and non-functional requirements
+- Identify technical stack
+- Prepare data flow and customer journey maps
+
+Phase 3: Design Phase (Week 2)
+- Create project architecture
+- Sequence/Class diagrams
+- User interface wireframes
+- Select ML models and design pipeline
+
+Phase 4: Development Phase (Week 3–4)
+- Data preprocessing
+- Model training & evaluation
+- Flask web application development
+- Integration of model with web UI
+
+Phase 5: Testing (Week 4)
+- Functional testing
+- UI testing
+- Prediction accuracy testing
+- Bug fixes and improvements
+
+Phase 6: Visualization (Week 4)
+- Create Tableau Dashboard
+- Publish dashboard link
+- Integrate in documentation
+
+Phase 7: Documentation & Demo (Week 5)
+- Prepare project report
+- Record demo video
+- Take UI screenshots
+- Upload to GitHub
+
+--------------------------------------------------------
+3. Gantt Chart (Text-Based)
+--------------------------------------------------------
+
+Week 1:
+[■■■■■■■■■] Requirement Gathering  
+[■■■■■■■■■] Dataset Understanding
+
+Week 2:
+[■■■■■■■■■] System Design  
+[■■■■■■■■■] Architecture + Diagrams
+
+Week 3:
+[■■■■■■■■■] Data Preprocessing  
+[■■■■■■■■■] Model Training
+
+Week 4:
+[■■■■■■■■■] Flask App Development  
+[■■■■■■■■■] Testing & Debugging  
+[■■■■■■■■■] Tableau Dashboard Creation
+
+Week 5:
+[■■■■■■■■■] Documentation  
+[■■■■■■■■■] Video Recording  
+[■■■■■■■■■] Final Deployment on GitHub
+
+--------------------------------------------------------
+4. Project Milestones
+--------------------------------------------------------
+
+M1 — Dataset Collection Completed  
+M2 — Requirements Document Prepared  
+M3 — Architecture & Design Completed  
+M4 — ML Model Trained Successfully  
+M5 — Flask Web App Completed  
+M6 — Dashboard Published  
+M7 — Testing Completed  
+M8 — Final Report & Demo Video Submitted
+
+--------------------------------------------------------
+5. Deliverables
+--------------------------------------------------------
+
+1. Cleaned dataset  
+2. ML model (model.pkl)  
+3. Flask web application (app.py + templates)  
+4. Tableau Dashboard link  
+5. Screenshots folder  
+6. Demo video  
+7. Documentation (PDF + TXT files)  
+8. GitHub repository  
+
+--------------------------------------------------------
+6. Risk Analysis & Mitigation
+--------------------------------------------------------
+
+Risk 1: Model accuracy too low  
+Solution: Try different ML models like Random Forest / XGBoost.
+
+Risk 2: Categorical data encoding issues  
+Solution: Use Label Encoding or One-Hot Encoding properly.
+
+Risk 3: Flask integration failure  
+Solution: Validate routes, debug input types, test locally.
+
+Risk 4: Dashboard not publishing  
+Solution: Check Tableau Public server and dataset compatibility.
+
+--------------------------------------------------------
+7. Team Roles
+--------------------------------------------------------
+
+Since this is an individual academic project:
+
+Role: Developer  
+Responsibilities:
+- Data preprocessing
+- Model training
+- Web application development
+- Dashboard creation
+- Testing & documentation
+
+--------------------------------------------------------
+8. Conclusion
+--------------------------------------------------------
+
+The project plan ensures timely completion with proper structure.  
+By following the above phases, the development becomes smoother, predictable, and organized.
