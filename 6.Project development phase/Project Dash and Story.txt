@@ -1,0 +1,115 @@
+PROJECT DASHBOARD & STORY — HEART DISEASE ANALYSIS
+
+1. Introduction
+The Tableau Dashboard provides a complete visual analysis of the Heart Disease dataset containing 4500+ individuals.  
+The goal of this dashboard is to visually identify which factors contribute most to heart disease and to help users or healthcare professionals understand patterns easily.
+
+The dashboard contains multiple charts such as:
+- Age vs Heart Disease
+- Race vs Heart Disease
+- Gender vs Heart Disease
+- BMI vs Heart Disease
+- Stroke, Physical Activity, Sleep Time, Skin Cancer, Asthma impact
+- General Health Influence
+
+-----------------------------------------------------------
+2. Dashboard Components
+-----------------------------------------------------------
+
+A) Age vs Heart Disease  
+- This horizontal bar chart shows that heart disease risk increases with age.  
+- People aged **55–59, 60–64, and above** show the highest number of cases.  
+- Younger age groups (20–29) have very low heart disease counts.
+
+B) Race vs Heart Disease  
+- Pie chart shows the distribution of heart disease across racial groups.  
+- Majority belong to **White population (70.47%)** followed by **Black (24.18%)**, and others.
+
+C) Heart Disease Based on Age Category  
+- A second age-based visualization showing frequency distribution.  
+- Helps confirm that older age groups contribute more to heart disease cases.
+
+D) Stroke vs Heart Disease  
+- Bar chart clearly shows that people who had a past **Stroke** are at a much higher heart disease risk.  
+- Stroke is a major contributing factor.
+
+E) Sex vs Heart Disease  
+- Bar chart reveals that **Males have higher percentage risk (36.44%)** compared to **Females (52.82% no risk)**.  
+- Gender plays a significant role in risk prediction.
+
+F) BMI vs Heart Disease  
+- Pie chart shows average BMI of individuals.  
+- Higher BMI is strongly correlated with heart disease.  
+- Obesity is a clear risk factor.
+
+G) Skin Cancer vs Heart Disease  
+- Visualization shows how those with skin cancer have higher heart disease counts.  
+- Indicates other chronic illnesses also increase risk.
+
+H) Asthma vs Heart Disease  
+- Bar chart indicates that asthma patients show elevated risk levels.  
+- Chronic breathing issues affect heart performance.
+
+I) General Health Impact  
+- Scatter/bubble chart clearly shows that as general health decreases (Fair, Poor), heart disease counts increase.  
+- “Poor” health group shows maximum risk.
+
+J) Physical Activity vs Heart Disease  
+- Chart shows that individuals who **do not engage in physical activity** have higher heart disease rates.  
+- Exercise plays a crucial preventive role.
+
+-----------------------------------------------------------
+3. Story (Sequential Tableau Story Flow)
+-----------------------------------------------------------
+
+Slide 1 — Overview of Dataset  
+- Introduces the distribution of individuals with and without heart disease.
+
+Slide 2 — Lifestyle Risk Factors  
+- Smoking, Alcohol Drinking, SleepTime, and Physical Activity patterns.
+- Lack of sleep or unhealthy habits increase risk.
+
+Slide 3 — Medical Risk Factors  
+- Diabetes, Stroke, Asthma, Skin Cancer contribute heavily to disease.
+
+Slide 4 — Demographic Analysis  
+- Age and Gender are strong indicators for higher disease probability.
+
+Slide 5 — General Health Improves Prediction  
+- Poor general health correlates strongly with heart disease.
+
+Slide 6 — Final Insights  
+- Summary of key factors
+- Preventive suggestions like improving physical activity and lifestyle.
+
+-----------------------------------------------------------
+4. Insights from Dashboard
+-----------------------------------------------------------
+
+✔ Older adults (55+) are the highest risk group  
+✔ Stroke & Diabetes drastically increase risk  
+✔ Males are more likely to develop heart disease  
+✔ Poor general health = higher heart disease probability  
+✔ High BMI is a major contributor  
+✔ Lack of physical activity increases risk  
+✔ Asthma and skin cancer patients show elevated risk levels  
+✔ White & Black racial groups hold majority of cases  
+
+-----------------------------------------------------------
+5. Dashboard Link
+-----------------------------------------------------------
+
+
+ https://public.tableau.com/views/hdanalysis/Dashboard1
+-----------------------------------------------------------
+6. Conclusion
+-----------------------------------------------------------
+
+This dashboard transforms raw data into meaningful insights that help identify who is at risk and why.  
+It supports:
+- Patients for awareness  
+- Doctors for decision-making  
+- Students for data visualization learning  
+- Researchers for correlation study  
+
+The dashboard plays a key role in validating the ML model predictions visually.
